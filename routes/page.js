@@ -48,10 +48,10 @@ router.post('/login', async (req, res) => {
                 if (result) {
                     return res.render('main', {user:username, posts:all});
                 } else {
-                    return res.render('Login', { title: 'Thoghts became words,', title1: 'words became actions.', notice: 'Wrong username or password.' })
+                    return res.render('Login', { title: 'Thoughts became words,', title1: 'words became actions.', notice: 'Wrong username or password.' })
                 }
             } else {
-                return res.render('Login', { title: 'Thoghts became words,', title1: 'words became actions.', notice: 'You are not our member.' })
+                return res.render('Login', { title: 'Thoughts became words,', title1: 'words became actions.', notice: 'You are not our member.' })
             }
 
         } catch (err) {
