@@ -1,0 +1,25 @@
+{
+  "name": "sns",
+  "version": "0.0.1",
+  "description": "sns for words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "sns"
+  ],
+  "type": "module",
+  "author": "woongbee",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chokidar": "^3.5.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3",
+    "nunjucks": "^3.2.3"
+  }
+}

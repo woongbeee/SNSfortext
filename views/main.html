@@ -1,0 +1,21 @@
+{% extends 'index.html'%}
+
+{% block content %}
+<form id="postArea" action="/post" method="post">
+    <input readonly id="user" name="user" value={{user}}>
+    <textarea id="userPost" name="userPost" placeholder="Type your thought." spellcheck="false"></textarea>
+    <button id="post" type="submit">Post</button>
+</form>
+
+{% if posts %}
+    {% for post in posts%}
+<form id="contents" action="/delete" method="post">
+    <button id="delete" type="submit">delete</button><br /><br/>
+    <div>{{post.content}}</div>
+    <textarea id="content" name="content" spellcheck="false" readonly>{{post.content}}</textarea> <br />
+    <textarea id="user" name="user" spellcheck="false" readonly>{{post.username}}</textarea> <br /><br />
+    <span>{{post.createAt}}</span><br />
+</form>
+    {% endfor %}
+{% endif %}
+{% endblock %}

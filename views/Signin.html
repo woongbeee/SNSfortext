@@ -1,0 +1,12 @@
+{% extends 'index.html'%}
+
+ {% block content %}
+<form action="/signin" method="post">
+    <h1 id="title">Sign in</h1>
+    <input id="username" name="username" type="text" placeholder="username" />
+    <input id="password" name="password" type="password" placeholder="password" />
+    <input id="confirmPassword" name="confirmPassword" type="password" placeholder="confirm password" />
+    <button id="signin" type="submit">Sign in</button>
+    <a id="backToLogin"  href="/">Back to login page</a>
+</form>
+    {% endblock %}

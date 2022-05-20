@@ -1,0 +1,142 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+
+#title{
+    margin:0;
+}
+#title1{
+    margin:0;
+    margin-bottom:40px;
+}
+form {
+    width: 520px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    margin-top:100px;
+    border: solid 0.5px black;
+    font-family: 'Oswald', sans-serif;
+}
+    form> input {
+        width: 230px;
+        font-size: 1.2rem;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+        font-family: 'Oswald', sans-serif;
+    }
+    form>h5{
+        font-size:1rem;
+        color:orangered;
+        font-weight:lighter;
+    }
+   form > button {
+        width: 230px;
+        font-size: 1.2rem;
+        height: auto;
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+        font-family: 'Oswald', sans-serif;
+    }
+   form > a {
+        font-size: 1rem;
+        color: lightgrey;
+        margin: 20px;
+    }
+
+        form> a:hover {
+            cursor: pointer;
+            color: black;
+        }
+
+ #postArea{
+     margin-top:30px;
+     padding:0;
+     padding-bottom:55px;
+ }
+    #postArea>input{
+        font-size:1.4rem;
+        font-weight:lighter;
+        float:left;
+        margin-left:28px;
+        margin-top:10px;
+        margin-bottom:5px;
+        border:none;
+    }
+    #postArea > textarea {
+        display:block;
+        margin-top:5px;
+        margin-left:25px;
+        width: 450px;
+        height: 120px;
+        font-size: 1rem;
+        font-weight: lighter;
+        resize:none;
+    }
+    #postArea >button{
+        float:right;
+        width:100px;
+        margin-right:23px;
+        margin-top:10px;
+
+    }
+
+#contents {
+    width: 500px;
+    height:auto;
+    text-align: center;
+    align-content:center;
+    margin: auto;
+    margin-top: 40px;
+    padding:20px;
+    padding-bottom:7px;
+    border: solid 0.5px black;
+    font-family: 'Oswald', sans-serif;
+}
+    #contents > button {
+        float: right;
+        font-size: 0.8rem;
+        color: grey;
+        border: none;
+        background-color: transparent;
+        margin:0;
+        width:60px;
+    }
+        #contents > button:hover{
+            color:black;
+            cursor:pointer;
+           
+        }
+    #contents > div {
+        width: 430px;
+        margin: auto;
+        font-family: 'Oswald', sans-serif;
+        font-size:1rem;
+        font-weight:lighter;
+    }
+    #contents > textarea {
+        font-family: 'Oswald', sans-serif;
+        float: right;
+        font-weight: lighter;
+        resize: none;
+        border: none;
+        background-color: transparent;   
+    }
+        #contents > textarea:focus {
+            border: none;
+            background-color: transparent;
+        }
+        #contents > #user {
+            width:150px;
+            font-size: 1.2rem;
+            text-align:center
+        }
+        #contents >span {
+            width: 400px;
+            font-size: 0.7rem;
+            margin:auto;
+        }
+#contents > #content {
+    display:none;
+}
